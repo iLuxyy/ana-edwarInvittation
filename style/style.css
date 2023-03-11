@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Alex Brush', cursive;
+    font-size: 64px;
+    padding: 5px;
+}
+h2{
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+   padding: 5px;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+h4{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 34px;
+    padding: 5px;
+}
+h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+.kelas1{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.kelas2{
+    position: absolute;    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.container-satu{
+    background-image: url("background.png");    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    height: 100vh; 
+}
+.container-conten{    
+    padding-top: 50px;
+}
+.container-conten2{    
+    padding-top: 100px;
+}
+.container-button{
+    padding: 10px;
+}
+.button-open{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background: #6c961c;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+.button-open:hover{
+    background: #a9eb2c;
+    cursor: pointer;
+}
+/*** invittation ***/
+.container-dua{
+    background-image: url("background.png");    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100%;
+}
+.img-pengantin{
+    width: 30%;
+    height: 30%;
+}
+.konten1{
+    background-image: url("bg3.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;    
+}
+.container-kontenimg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-konten1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-konten2{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.konten2{
+    background-image: url("bg2.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.konten3{
+    background-image: url("background.png");    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.isikonten3{ 
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.boxkonten3{
+    
+    position: relative;
+    background-color: #ebab7b;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    color: white;    
+}
+.konten4{
+    background-color: #ebab7b;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;  
+}
+.konten5{
+    background-image: url("bg4.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.endfot{    
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+.countdown{
+    font-family: 'Lato', sans-serif;
+    padding-top: 150px;    
+}
